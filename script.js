@@ -1,4 +1,4 @@
-window.onload = function () {
+
 	var openModalWindowButton = document.querySelector(".popup__open");
 	var popup = document.querySelector(".popup__container");
 	openModalWindowButton.addEventListener("click", function () {
@@ -25,4 +25,3 @@ window.onload = function () {
 	function closePopUp(popup) {
 		popup.classList.remove("open");
 	}
-};
